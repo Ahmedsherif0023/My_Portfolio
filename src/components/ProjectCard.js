@@ -7,9 +7,11 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
         <img src={imgUrl} />
         <div className="proj-txtx">
           <h4>{title}</h4>
-          <span>{description}</span>
+          <span>
+            {description} <a href="//github.com/Ahmedsherif0023/E-commerce"></a>
+          </span>
         </div>
       </div>
     </Col>
-  )
-}
+  );
+};
