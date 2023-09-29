@@ -3,9 +3,18 @@
   height: auto;
   min-height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("../public/imagee.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
 }
 
 body {
   padding: 0;
   margin: 0;
+}
+
+@media screen and (max-width:600px) {
+  
 }
